@@ -1,0 +1,9 @@
+version: '3'
+services:
+  jdwp:
+    image: pwnallnow/jdwp
+    hostname: jdwp
+    container_name: jdwpcontainer
+    ports:
+      - "8888:8888"
+      - "9999:9999"
